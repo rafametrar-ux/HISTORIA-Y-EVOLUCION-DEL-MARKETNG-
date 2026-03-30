@@ -1,77 +1,1175 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historia y Evolución del Marketing</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Linking external CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Historia y Evolución del Marketing</h1>
-        <nav>
-            <ul>
-                <li><a href="#version1">Marketing 1.0</a></li>
-                <li><a href="#version2">Marketing 2.0</a></li>
-                <li><a href="#version3">Marketing 3.0</a></li>
-                <li><a href="#version4">Marketing 4.0</a></li>
-                <li><a href="#version5">Marketing 5.0</a></li>
-                <li><a href="#version6">Marketing 6.0</a></li>
-            </ul>
-        </nav>
+        <div class="container-header">
+            <h1>📊 Historia y Evolución del Marketing</h1>
+            <p class="subtitle">De la Producción Masiva (1900) a la Sostenibilidad (2026) | Estrategias que transformaron el comercio mundial</p>
+            <nav>
+                <button class="nav-btn" data-version="comparacion">🔄 Marketing vs Ventas</button>
+                <button class="nav-btn" data-version="preguntas">❓ Preguntas Previas</button>
+                <button class="nav-btn" data-version="all">📊 Vista General</button>
+                <button class="nav-btn" data-version="1">1.0</button>
+                <button class="nav-btn" data-version="2">2.0</button>
+                <button class="nav-btn" data-version="3">3.0</button>
+                <button class="nav-btn" data-version="4">4.0</button>
+                <button class="nav-btn" data-version="5">5.0</button>
+                <button class="nav-btn" data-version="6">6.0</button>
+                <button class="nav-btn" data-version="conclusiones">🎯 Conclusiones</button>
+                <button class="nav-btn" data-version="referencias">📚 Referencias</button>
+                <a href="Historia_y_Evolucion_del_Marketing.pptx" download class="nav-btn download-btn">⬇️ Descargar PPTX</a>
+            </nav>
+        </div>
     </header>
+
     <main>
-        <section id="version1">
-            <h2>Marketing 1.0</h2>
-            <p><strong>Concepto:</strong> En esta etapa, el marketing se centraba en el producto y su producción masiva.</p>
-            <p><strong>Características:</strong> Enfoque en la producción, bajo poder del consumidor.</p>
-            <p><strong>Ejemplos:</strong> Coca-Cola, Ford.</p>
-            <p><strong>Valor de Marca:</strong> Importancia de la marca como símbolo de calidad.</p>
-            <p><strong>Enfoques:</strong> Publicidad unidireccional, marketing de masas.</p>
+        <!-- Marketing vs Ventas Comparison -->
+        <section id="comparacion" class="content-section comparacion-section" style="display:none;">
+            <h2>🔄 Marketing vs Ventas: Conceptos Clave</h2>
+            <p class="section-intro"><strong>🎯 Diferencia fundamental:</strong> Marketing prepara el terreno, Ventas cierra el negocio. Pero en Marketing 6.0, ambos convergen en un único objetivo: crear valor compartido. Haz clic en los cuadros para explorar.</p>
+            
+            <div class="comparacion-controls">
+                <button class="toggle-btn toggle-active" data-view="dual">📋 Vista Dual</button>
+                <button class="toggle-btn" data-view="marketing">📢 Solo Marketing</button>
+                <button class="toggle-btn" data-view="ventas">💼 Solo Ventas</button>
+            </div>
+
+            <div class="comparacion-container" id="comparacion-container">
+                <!-- MARKETING COLUMN -->
+                <div class="comparacion-column marketing-column">
+                    <div class="column-header marketing-header">
+                        <h3>📢 MARKETING</h3>
+                        <p class="column-period">Crear Deseo</p>
+                    </div>
+
+                    <div class="comparacion-item">
+                        <h4 class="item-title">💡 Concepto</h4>
+                        <div class="item-content">
+                            <p>Proceso de crear, comunicar y entregar valor a los clientes. Identifica necesidades, construye relaciones y genera demanda. Es <strong>estratégico y de largo plazo</strong>.</p>
+                            <div class="concepto-highlight">
+                                <p><strong>Enfoque:</strong> Cliente + Producto + Valor</p>
+                                <p><strong>Horizonte:</strong> Semanas a años</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="comparacion-item">
+                        <h4 class="item-title">🎯 Características</h4>
+                        <div class="item-content">
+                            <ul class="char-list">
+                                <li>🔍 Investigación profunda de mercado</li>
+                                <li>📊 Análisis de datos y segmentación</li>
+                                <li>🎨 Creación de marca y narrativas</li>
+                                <li>📱 Comunicación multi-canal</li>
+                                <li>🤝 Construcción de relaciones a largo plazo</li>
+                                <li>💼 Valoración de intangibles</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="comparacion-item">
+                        <h4 class="item-title">📂 Clasificación</h4>
+                        <div class="item-content">
+                            <div class="clasificacion-grid">
+                                <div class="clase">
+                                    <span class="clase-label">🌐 Digital</span>
+                                    <p>SEO, SEM, Social Media, Email</p>
+                                </div>
+                                <div class="clase">
+                                    <span class="clase-label">📺 Tradicional</span>
+                                    <p>TV, Radio, Prensa, Publicidad</p>
+                                </div>
+                                <div class="clase">
+                                    <span class="clase-label">🤳 Influencia</span>
+                                    <p>Influencers, Embajadores de marca</p>
+                                </div>
+                                <div class="clase">
+                                    <span class="clase-label">🎯 Contenido</span>
+                                    <p>Blogs, Videos, Podcasts, Webinars</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="comparacion-item">
+                        <h4 class="item-title">🏆 Ejemplos</h4>
+                        <div class="item-content">
+                            <div class="ejemplo-box">
+                                <strong>Apple</strong>
+                                <p>Campaña "Think Different" + Storytelling emocional = Comunidad leal sin necesidad de vender agresivamente</p>
+                            </div>
+                            <div class="ejemplo-box">
+                                <strong>Patagonia</strong>
+                                <p>Marketing de propósito: Comunica compromiso ambiental primero = Ventas secundarias pero leales</p>
+                            </div>
+                            <div class="ejemplo-box">
+                                <strong>Netflix</strong>
+                                <p>Datos + Recomendaciones personalizadas = Marketing que anticipate lo que quieres</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VENTAS COLUMN -->
+                <div class="comparacion-column ventas-column">
+                    <div class="column-header ventas-header">
+                        <h3>💼 VENTAS</h3>
+                        <p class="column-period">Cerrar el Trato</p>
+                    </div>
+
+                    <div class="comparacion-item">
+                        <h4 class="item-title">💡 Concepto</h4>
+                        <div class="item-content">
+                            <p>Proceso transaccional de convertir clientes potenciales en compradores. Cierra oportunidades y genera ingresos. Es <strong>táctico y de corto plazo</strong>.</p>
+                            <div class="concepto-highlight">
+                                <p><strong>Enfoque:</strong> Cliente ya interesado + Cierre</p>
+                                <p><strong>Horizonte:</strong> Días a semanas</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="comparacion-item">
+                        <h4 class="item-title">🎯 Características</h4>
+                        <div class="item-content">
+                            <ul class="char-list">
+                                <li>🤝 Relación directa con el cliente</li>
+                                <li>💬 Negociación y persuasión</li>
+                                <li>⚡ Rapidez en la toma de decisiones</li>
+                                <li>🎁 Gestión de objeciones</li>
+                                <li>📈 Métrica: % Conversión y ticket promedio</li>
+                                <li>🔄 Retención y upsell</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="comparacion-item">
+                        <h4 class="item-title">📂 Clasificación</h4>
+                        <div class="item-content">
+                            <div class="clasificacion-grid">
+                                <div class="clase">
+                                    <span class="clase-label">👥 Directa</span>
+                                    <p>B2C, Tienda, Vendedor</p>
+                                </div>
+                                <div class="clase">
+                                    <span class="clase-label">💼 Corporativa</span>
+                                    <p>B2B, Account Manager</p>
+                                </div>
+                                <div class="clase">
+                                    <span class="clase-label">🌐 Online</span>
+                                    <p>E-commerce, Chatbots, Checkout</p>
+                                </div>
+                                <div class="clase">
+                                    <span class="clase-label">🤖 Automatizada</span>
+                                    <p>Flujos, CRM, AI Assistants</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="comparacion-item">
+                        <h4 class="item-title">🏆 Ejemplos</h4>
+                        <div class="item-content">
+                            <div class="ejemplo-box">
+                                <strong>Salesforce</strong>
+                                <p>Equipo de ventas con CRM avanzado = Seguimiento de cada lead hasta cierre</p>
+                            </div>
+                            <div class="ejemplo-box">
+                                <strong>Amazon</strong>
+                                <p>1-Click checkout + Recomendaciones = Ventas por fricción mínima</p>
+                            </div>
+                            <div class="ejemplo-box">
+                                <strong>Insurance Brokers</strong>
+                                <p>Consultores que cierran tratos personalizados = Altos ticket pero ciclo largo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Convergence Analysis -->
+            <div class="comparacion-integracion">
+                <h3>🔗 En Marketing 6.0: La Convergencia</h3>
+                <div class="convergencia-items">
+                    <div class="convergencia-item">
+                        <h4>📊 Data + Decisión</h4>
+                        <p>Marketing proporciona datos, Ventas toma decisiones usando esos insights</p>
+                    </div>
+                    <div class="convergencia-item">
+                        <h4>🤖 Automatización Inteligente</h4>
+                        <p>Bots de marketing califican leads, bots de ventas cierran tratos sin intervención humana</p>
+                    </div>
+                    <div class="convergencia-item">
+                        <h4>🎯 Experiencia Unificada</h4>
+                        <p>El cliente no percibe diferencia: flujo continuo desde awareness hasta compra</p>
+                    </div>
+                    <div class="convergencia-item">
+                        <h4>📈 Métricas Integradas</h4>
+                        <p>ROI se calcula en el viaje completo, no por departamento separado</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="version2">
-            <h2>Marketing 2.0</h2>
-            <p><strong>Concepto:</strong> Se da importancia al cliente y a su interacción con el producto.</p>
-            <p><strong>Características:</strong> Personalización y socialización.</p>
-            <p><strong>Ejemplos:</strong> Facebook, Amazon.</p>
-            <p><strong>Valor de Marca:</strong> Construcción a través de la experiencia del cliente.</p>
-            <p><strong>Enfoques:</strong> Marketing relacional, marketing digital.</p>
+
+        <!-- Preguntas Previas -->
+        <section id="preguntas" class="content-section preguntas-section">
+            <h2>❓ Preguntas Previas para Pensar</h2>
+            <p class="section-intro"><strong>📖 Antes de comenzar:</strong> Reflexiona sobre estas 6 preguntas. No hay respuestas "correctas" - son para activar tu pensamiento crítico sobre cómo el marketing ha moldeado tu vida. Discute tus respuestas con compañeros y descubre cómo el marketing evolucionó resolviendo estos mismos dilemas.</p>
+            <div class="preguntas-grid">
+                <div class="pregunta-card">
+                    <h3>¿Cómo ha cambiado tu forma de consumir productos en los últimos 5 años?</h3>
+                    <p>Piensa en cómo compraba antes vs. ahora. ¿Qué rol juegan las redes sociales, reseñas en línea y recomendaciones?</p>
+                </div>
+                <div class="pregunta-card">
+                    <h3>¿Qué información influye más en tu decisión de compra?</h3>
+                    <p>¿Es la publicidad tradicional, opiniones de amigos, influencers, o datos personales que las empresas tienen sobre ti?</p>
+                </div>
+                <div class="pregunta-card">
+                    <h3>¿Qué marca te importa más por su propósito social que por su producto?</h3>
+                    <p>¿Pagarías más por un producto si sabes que la empresa es responsable ambientalmente?</p>
+                </div>
+                <div class="pregunta-card">
+                    <h3>¿Cómo crees que la tecnología cambió el marketing?</h3>
+                    <p>¿Imaginas cómo será comprar en 10 años? ¿Qué rol jugarán la IA, realidad virtual o metaverso?</p>
+                </div>
+                <div class="pregunta-card">
+                    <h3>¿Qué tan privados son tus datos en línea?</h3>
+                    <p>¿Sabes cuánto saben las empresas sobre ti? ¿Cómo usan esa información?</p>
+                </div>
+                <div class="pregunta-card">
+                    <h3>¿El marketing es bueno o malo?</h3>
+                    <p>¿Puede el marketing ayudar a cambiar el mundo? ¿Cómo deberían comportarse las empresas?</p>
+                </div>
+            </div>
         </section>
-        <section id="version3">
-            <h2>Marketing 3.0</h2>
-            <p><strong>Concepto:</strong> Enfoque en el valor y la participación del consumidor.</p>
-            <p><strong>Características:</strong> Orientación a la sociedad y principios éticos.</p>
-            <p><strong>Ejemplos:</strong> TOMS, Patagonia.</p>
-            <p><strong>Valor de Marca:</strong> Autenticidad y responsabilidad social.</p>
-            <p><strong>Enfoques:</strong> Marketing basado en valores.</p>
+
+        <!-- Timeline Section -->
+        <section id="timeline" class="timeline-section">
+            <h2>📅 Línea de Tiempo del Marketing</h2>
+            <p class="timeline-intro"><strong>💫 Observa cómo cambió el juego:</strong> Cada era duró menos tiempo que la anterior, mostrando aceleración. Haz clic en cualquier año para explorar esa versión del marketing.</p>
+            <div class="timeline">
+                <div class="timeline-item" data-version="1">
+                    <div class="timeline-marker">1.0</div>
+                    <div class="timeline-content">
+                        <h3>1900-1950</h3>
+                        <p class="timeline-label">Era de Producción</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-version="2">
+                    <div class="timeline-marker">2.0</div>
+                    <div class="timeline-content">
+                        <h3>1950-2000</h3>
+                        <p class="timeline-label">Era Digital Temprana</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-version="3">
+                    <div class="timeline-marker">3.0</div>
+                    <div class="timeline-content">
+                        <h3>2000-2010</h3>
+                        <p class="timeline-label">Era de Valores</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-version="4">
+                    <div class="timeline-marker">4.0</div>
+                    <div class="timeline-content">
+                        <h3>2010-2015</h3>
+                        <p class="timeline-label">Era Omnicanal</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-version="5">
+                    <div class="timeline-marker">5.0</div>
+                    <div class="timeline-content">
+                        <h3>2015-2020</h3>
+                        <p class="timeline-label">Era de IA</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-version="6">
+                    <div class="timeline-marker">6.0</div>
+                    <div class="timeline-content">
+                        <h3>2020+</h3>
+                        <p class="timeline-label">Era Sostenible</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="version4">
-            <h2>Marketing 4.0</h2>
-            <p><strong>Concepto:</strong> Combina marketing digital y marketing tradicional.</p>
-            <p><strong>Características:</strong> Enfoque en el comportamiento del consumidor online y offline.</p>
-            <p><strong>Ejemplos:</strong> Nike, Starbucks.</p>
-            <p><strong>Valor de Marca:</strong> Experiencias integradas.</p>
-            <p><strong>Enfoques:</strong> Big data, segmentación de mercado.</p>
+        <!-- Conceptos Fundamentales -->
+        <section id="conceptos-fundamentales" class="conceptos-section">
+            <h2>🎯 Conceptos Fundamentales del Marketing</h2>
+            <p class="section-intro"><strong>🔍 Clave para entender la evolución:</strong> A través de 6 generaciones, el marketing respondió a diferentes supuestos sobre qué valoran los consumidores. Cada concepto que ves aquí fue revolucionario en su era, pero eventualmente fue superado. Este patrón seguirá ocurriendo - tu trabajo como marketer es anticipar el próximo cambio.</p>
+            
+            <div class="conceptos-grid">
+                <div class="concepto-card">
+                    <div class="concepto-icon">🏭</div>
+                    <h3>Concepto de Producción</h3>
+                    <p><strong>Era (Marketing 1.0):</strong></p>
+                    <p>Los consumidores favorecerán los productos que estén disponibles y sean asequibles.</p>
+                    <div class="concepto-focus">
+                        <p><strong>Enfoque:</strong> Producción eficiente y distribución masiva</p>
+                        <p><strong>Objetivo:</strong> Llegar a la mayor cantidad de personas</p>
+                    </div>
+                </div>
+
+                <div class="concepto-card">
+                    <div class="concepto-icon">📦</div>
+                    <h3>Concepto de Producto</h3>
+                    <p><strong>Era (Marketing 1.0-2.0):</strong></p>
+                    <p>Los consumidores prefieren productos que ofrezcan mayor calidad, mejor desempeño y características innovadoras.</p>
+                    <div class="concepto-focus">
+                        <p><strong>Enfoque:</strong> Innovación y desarrollo de producto</p>
+                        <p><strong>Objetivo:</strong> Diferenciar a través de la calidad</p>
+                    </div>
+                </div>
+
+                <div class="concepto-card">
+                    <div class="concepto-icon">💡</div>
+                    <h3>Concepto de Marketing</h3>
+                    <p><strong>Era (Marketing 2.0):</strong></p>
+                    <p>La filosofía en la cual la base de las metas de marketing depende del conocimiento de las necesidades y deseos de los mercados, y de la entrega de satisfacciones deseadas.</p>
+                    <div class="concepto-focus">
+                        <p><strong>Enfoque:</strong> Conocimiento del cliente</p>
+                        <p><strong>Objetivo:</strong> Satisfacer necesidades específicas</p>
+                    </div>
+                </div>
+
+                <div class="concepto-card">
+                    <div class="concepto-icon">🎲</div>
+                    <h3>Orientación al Mercado</h3>
+                    <p><strong>Era (Marketing 2.0-3.0):</strong></p>
+                    <p>La ventaja de mercado requiere: resultados superiores, análisis profundo de mercado y dedicación al marketing estratégico.</p>
+                    <div class="concepto-focus">
+                        <p><strong>Enfoque:</strong> Análisis y segmentación</p>
+                        <p><strong>Objetivo:</strong> Crear ventaja competitiva</p>
+                    </div>
+                </div>
+
+                <div class="concepto-card">
+                    <div class="concepto-icon">🔄</div>
+                    <h3>Perspectivas de la Comunicación</h3>
+                    <p><strong>Era (Marketing 2.0-4.0):</strong></p>
+                    <div class="perspectivas-flex">
+                        <div class="perspectiva-item">
+                            <p><strong>De Dentro hacia Afuera:</strong></p>
+                            <p>Empresa → Mercado (Marketing tradicional)</p>
+                        </div>
+                        <div class="perspectiva-item">
+                            <p><strong>De Afuera hacia Adentro:</strong></p>
+                            <p>Mercado → Empresa (Marketing orientado al cliente)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="concepto-card">
+                    <div class="concepto-icon">🌐</div>
+                    <h3>Evolución de Perspectivas</h3>
+                    <p><strong>Era (Marketing 3.0-6.0):</strong></p>
+                    <p>Integración bidireccional: Comunicación de dos vías, co-creación con el cliente, y ecosistemas de valor compartido.</p>
+                    <div class="concepto-focus">
+                        <p><strong>Enfoque:</strong> Conversación y participación</p>
+                        <p><strong>Objetivo:</strong> Relación mutuamente benéfica</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="version5">
-            <h2>Marketing 5.0</h2>
-            <p><strong>Concepto:</strong> Marketing basado en la tecnología y la inteligencia artificial.</p>
-            <p><strong>Características:</strong> Automatización y personalización extrema.</p>
-            <p><strong>Ejemplos:</strong> Chatbots en atención al cliente.</p>
-            <p><strong>Valor de Marca:</strong> Innovación constante.</p>
-            <p><strong>Enfoques:</strong> Marketing predictivo, análisis de datos.</p>
+
+        <!-- Marketing 1.0 Section -->
+        <section id="version1" class="version-section ver1-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>🏭 Marketing 1.0: Era de Producción</h2>
+                    <p class="section-period">1900-1950</p>
+                </div>
+
+                <div class="section-content">
+                    <!-- Concepto y Características -->
+                    <div class="content-row">
+                        <div class="content-block">
+                            <h3>📌 Concepto Principal</h3>
+                            <p>Marketing centrado en la venta de productos de consumo masivo a través de producción eficiente. El consumidor tenía poco poder de decisión.</p>
+                        </div>
+                        <div class="content-block">
+                            <h3>🎯 Características Clave</h3>
+                            <ul>
+                                <li>Enfoque en producción masiva</li>
+                                <li>Bajo poder del consumidor</li>
+                                <li>Publicidad unidireccional</li>
+                                <li>Producto homogéneo</li>
+                                <li>Marketing de masas sin segmentación</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Canales y Precios -->
+                    <div class="content-row">
+                        <div class="content-block">
+                            <h3>💼 Canales Principales</h3>
+                            <ul>
+                                <li>Radio</li>
+                                <li>Periódicos</li>
+                                <li>Carteles publicitarios</li>
+                                <li>Boca a boca</li>
+                                <li>Tiendas físicas</li>
+                            </ul>
+                        </div>
+                        <div class="content-block">
+                            <h3>💰 Estrategias de Precio</h3>
+                            <ul>
+                                <li>Precios fijos y controlados</li>
+                                <li>Economía de escala</li>
+                                <li>Distribución masiva</li>
+                                <li>Modelo de producción en línea</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Ejemplos Reales -->
+                    <div class="examples-section">
+                        <h3>🏆 Ejemplos Reales</h3>
+                        <div class="examples-grid">
+                            <div class="example-card">
+                                <div class="example-header">Ford Motor Company</div>
+                                <div class="example-body">
+                                    <p><strong>Año Fundación:</strong> 1903</p>
+                                    <p><strong>Producto Icónico:</strong> Ford Model T (1908)</p>
+                                    <p><strong>Estrategia:</strong> Producción masiva reduciendo costos. "Cualquier color, mientras sea negro"</p>
+                                    <p><strong>Impacto:</strong> Revolucionó la industria automotriz con producción en cadena</p>
+                                    <p><strong>Lección:</strong> Eficiencia operativa como ventaja competitiva</p>
+                                </div>
+                            </div>
+                            <div class="example-card">
+                                <div class="example-header">Coca-Cola</div>
+                                <div class="example-body">
+                                    <p><strong>Año Fundación:</strong> 1886</p>
+                                    <p><strong>Producto Icónico:</strong> Coca-Cola Original</p>
+                                    <p><strong>Estrategia:</strong> Distribución masiva + Publicidad consistente</p>
+                                    <p><strong>Impacto:</strong> Primera marca global reconocida internacionalmente</p>
+                                    <p><strong>Lección:</strong> Consistencia de marca crea valor duradero</p>
+                                </div>
+                            </div>
+                            <div class="example-card">
+                                <div class="example-header">Nestlé</div>
+                                <div class="example-body">
+                                    <p><strong>Año Fundación:</strong> 1866</p>
+                                    <p><strong>Producto Icónico:</strong> Leche condensada</p>
+                                    <p><strong>Estrategia:</strong> Productos para masas a bajo costo</p>
+                                    <p><strong>Impacto:</strong> Diversificación de portafolio de productos</p>
+                                    <p><strong>Lección:</strong> Innovación en productos accesibles</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="version6">
-            <h2>Marketing 6.0</h2>
-            <p><strong>Concepto:</strong> Fusión entre el marketing y la sostenibilidad.</p>
-            <p><strong>Características:</strong> Conciencia social y medioambiental.</p>
-            <p><strong>Ejemplos:</strong> Marcas que apoyan el comercio justo.</p>
-            <p><strong>Valor de Marca:</strong> Lealtad a marcas éticas.</p>
-            <p><strong>Enfoques:</strong> Marketing inclusivo y sostenibilidad.</p>
+
+        <!-- Marketing 2.0 Section -->
+        <section id="version2" class="version-section ver2-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>💻 Marketing 2.0: Era Digital Temprana</h2>
+                    <p class="section-period">1950-2000</p>
+                </div>
+
+                <div class="section-content">
+                    <!-- Concepto y Características -->
+                    <div class="content-row">
+                        <div class="content-block">
+                            <h3>📌 Concepto Principal</h3>
+                            <p>Cambio de enfoque desde la producción al consumidor. Segmentación de mercados y construcción de relaciones. Primeras tecnologías de comunicación masiva.</p>
+                        </div>
+                        <div class="content-block">
+                            <h3>🎯 Características Clave</h3>
+                            <ul>
+                                <li>Enfoque en el consumidor</li>
+                                <li>Segmentación de mercados</li>
+                                <li>Personalización relativa</li>
+                                <li>Construcción de lealtad</li>
+                                <li>Marketing relacional</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Canales y Precios -->
+                    <div class="content-row">
+                        <div class="content-block">
+                            <h3>💼 Canales Principales</h3>
+                            <ul>
+                                <li>Televisión</li>
+                                <li>Internet temprano (Web 1.0)</li>
+                                <li>Email marketing</li>
+                                <li>Catálogos por correo</li>
+                                <li>Tiendas especializadas</li>
+                            </ul>
+                        </div>
+                        <div class="content-block">
+                            <h3>💰 Estrategias de Precio</h3>
+                            <ul>
+                                <li>Diferenciación de precios</li>
+                                <li>Segmentación por cliente</li>
+                                <li>Promociones selectivas</li>
+                                <li>Programas de lealtad</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Ejemplos Reales -->
+                    <div class="examples-section">
+                        <h3>🏆 Ejemplos Reales</h3>
+                        <div class="examples-grid">
+                            <div class="example-card">
+                                <div class="example-header">Amazon (Fundación)</div>
+                                <div class="example-body">
+                                    <p><strong>Año Fundación:</strong> 1994</p>
+                                    <p><strong>Producto Inicial:</strong> Venta de libros online</p>
+                                    <p><strong>Estrategia:</strong> Personalización de recomendaciones + Servicio al cliente</p>
+                                    <p><strong>Impacto:</strong> Pionero en e-commerce con enfoque en experiencia</p>
+                                    <p><strong>Lección:</strong> Personalización mejora retención de clientes</p>
+                                </div>
+                            </div>
+                            <div class="example-card">
+                                <div class="example-header">McDonald's</div>
+                                <div class="example-body">
+                                    <p><strong>Año Consolidación:</strong> 1950-1960s</p>
+                                    <p><strong>Producto Icónico:</strong> Big Mac, Combos</p>
+                                    <p><strong>Estrategia:</strong> Consistencia de experiencia + Segmentación de menús</p>
+                                    <p><strong>Impacto:</strong> Modelo de franquicia global estandarizado</p>
+                                    <p><strong>Lección:</strong> Estandarización con adaptaciones locales</p>
+                                </div>
+                            </div>
+                            <div class="example-card">
+                                <div class="example-header">Dell Computer</div>
+                                <div class="example-body">
+                                    <p><strong>Año Fundación:</strong> 1984</p>
+                                    <p><strong>Producto Icónico:</strong> Computadoras personalizadas</p>
+                                    <p><strong>Estrategia:</strong> Venta directa + Configuración personalizada</p>
+                                    <p><strong>Impacto:</strong> Modelo de negocio revolucionario sin intermediarios</p>
+                                    <p><strong>Lección:</strong> Eliminar intermediarios mejora relaciones directas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                            <ul>
+                                <li>Enfoque en el consumidor</li>
+                                <li>Segmentación de mercados</li>
+                                <li>Personalización relativa</li>
+                                <li>Construcción de lealtad</li>
+                                <li>Marketing relacional</li>
+                            </ul>
+                        </div>
+                        <div class="content-block">
+                            <h3>💼 Canales Principales</h3>
+                            <ul>
+                                <li>Televisión</li>
+                                <li>Internet temprano (Web 1.0)</li>
+                                <li>Email marketing</li>
+                                <li>Catálogos por correo</li>
+                                <li>Tiendas especializadas</li>
+                            </ul>
+                        </div>
+                        <div class="content-block">
+                            <h3>💰 Estrategias de Precio</h3>
+                            <ul>
+                                <li>Diferenciación de precios</li>
+                                <li>Segmentación por cliente</li>
+                                <li>Promociones selectivas</li>
+                                <li>Programas de lealtad</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="examples-section">
+                        <h3>🏆 Ejemplos Reales</h3>
+                        <div class="examples-grid">
+                            <div class="example-card">
+                                <div class="example-header">Amazon (Fundación)</div>
+                                <div class="example-body">
+                                    <p><strong>Año Fundación:</strong> 1994</p>
+                                    <p><strong>Producto Inicial:</strong> Venta de libros online</p>
+                                    <p><strong>Estrategia:</strong> Personalización de recomendaciones + Servicio al cliente</p>
+                                    <p><strong>Impacto:</strong> Pionero en e-commerce con enfoque en experiencia</p>
+                                    <p><strong>Lección:</strong> Personalización mejora retención de clientes</p>
+                                </div>
+                            </div>
+                            <div class="example-card">
+                                <div class="example-header">McDonald's</div>
+                                <div class="example-body">
+                                    <p><strong>Año Consolidación:</strong> 1950-1960s</p>
+                                    <p><strong>Producto Icónico:</strong> Big Mac, Combos</p>
+                                    <p><strong>Estrategia:</strong> Consistencia de experiencia + Segmentación de menús</p>
+                                    <p><strong>Impacto:</strong> Modelo de franquicia global estandarizado</p>
+                                    <p><strong>Lección:</strong> Estandarización con adaptaciones locales</p>
+                                </div>
+                            </div>
+                            <div class="example-card">
+                                <div class="example-header">Dell Computer</div>
+                                <div class="example-body">
+                                    <p><strong>Año Fundación:</strong> 1984</p>
+                                    <p><strong>Producto Icónico:</strong> Computadoras personalizadas</p>
+                                    <p><strong>Estrategia:</strong> Venta directa + Configuración personalizada</p>
+                                    <p><strong>Impacto:</strong> Modelo de negocio revolucionario sin intermediarios</p>
+                                    <p><strong>Lección:</strong> Eliminar intermediarios mejora relaciones directas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Marketing 3.0 Section -->
+        <section id="version3" class="version-section ver3-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>🌱 Marketing 3.0: Era de Valores</h2>
+                    <p class="section-period">2000-2010</p>
+                </div>
+
+                <div class="section-content">
+                    <!-- Concepto y Características -->
+                    <div class="content-row">
+                        <div class="content-block">
+                            <h3>📌 Concepto Principal</h3>
+                            <p>Marketing enfocado en propósito, valores y responsabilidad social. Las marcas deben alinearse con valores sociales y ambientales de los consumidores.</p>
+                        </div>
+                        <div class="content-block">
+                            <h3>🎯 Características Clave</h3>
+                            <ul>
+                                <li>Propósito de marca</li>
+                                <li>Responsabilidad social</li>
+                                <li>Sostenibilidad ambiental</li>
+                                <li>Autenticidad y transparencia</li>
+                                <li>Participación comunitaria</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Canales y Precios -->
+                    <div class="content-row">
+                        <div class="content-block">
+                            <h3>💼 Canales Principales</h3>
+                            <ul>
+                                <li>Redes sociales tempranas</li>
+                                <li>Blogs y contenido</li>
+                                <li>Eventos comunitarios</li>
+                                <li>Partnerships con ONGs</li>
+                                <li>Marketing viral</li>
+                            </ul>
+                        </div>
+                        <div class="content-block">
+                            <h3>💰 Estrategias de Precio</h3>
+                            <ul>
+                                <li>Premium por valores</li>
+                                <li>Comercio justo</li>
+                                <li>Donaciones a causas</li>
+                                <li>Modelos de negocio social</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Ejemplos Reales -->
+                    <div class="examples-section">
+                        <h3>🏆 Ejemplos Reales</h3>
+                        <div class="examples-grid">
+                            <div class="example-card">
+                                <div class="example-header">TOMS Shoes</div>
+                                <div class="example-body">
+                                    <p><strong>Año Fundación:</strong> 2006</p>
+                                    <p><strong>Producto Icónico:</strong> Zapatos de lona con causa</p>
+                                    <p><strong>Estrategia:</strong> "One for One" - Por cada zapato vendido, uno donado</p>
+                                    <p><strong>Impacto:</strong> Revolucionó modelo de negocio con propósito social</p>
+                                    <p><strong>Lección:</strong> El propósito social es una estrategia de negocio válida</p>
+                                </div>
+                            </div>
+                            <div class="example-card">
+                                <div class="example-header">Patagonia</div>
+                                <div class="example-body">
+                                    <p><strong>Año Fundación:</strong> 1973</p>
+                                    <p><strong>Producto Icónico:</strong> Ropa outdoor sostenible</p>
+                                    <p><strong>Estrategia:</strong> Compromiso ambiental radical (transparencia de impacto)</p>
+                                    <p><strong>Impacto:</strong> Líder en sostenibilidad corporativa</p>
+                                    <p><strong>Lección:</strong> Autenticidad en valores crea lealtad de marca</p>
+                                </div>
+                            </div>
+                            <div class="example-card">
+                                <div class="example-header">Ben & Jerry's</div>
+                                <div class="example-body">
+                                    <p><strong>Año Fundación:</strong> 1978</p>
+                                    <p><strong>Producto Icónico:</strong> Helado con propósito</p>
+                                    <p><strong>Estrategia:</strong> Activismo social integrado en marca</p>
+                                    <p><strong>Impacto:</strong> Pionero en negocios con propósito social</p>
+                                    <p><strong>Lección:</strong> La marca es más que un producto, es un movimiento</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Marketing 4.0 Section -->
+        <section id="version4" class="version-section ver4-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>🛍️ Marketing 4.0: Era Omnicanal</h2>
+                    <p class="section-period">2010-2015</p>
+                </div>
+
+                <div class="section-content">
+                    <!-- Concepto y Características -->
+                    <div class="content-row">
+                        <div class="content-block">
+                            <h3>📌 Concepto Principal</h3>
+                            <p>Integración perfecta entre canales online y offline. Enfoque en la experiencia del consumidor a través de múltiples puntos de contacto con análisis de datos masivos.</p>
+                        </div>
+                        <div class="content-block">
+                            <h3>🎯 Características Clave</h3>
+                            <ul>
+                                <li>Omnicanalidad (online + offline)</li>
+                                <li>Big Data y analítica</li>
+                                <li>Experiencia integrada</li>
+                                <li>Segmentación avanzada</li>
+                                <li>Marketing en tiempo real</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Canales y Precios -->
+                    <div class="content-row">
+                        <div class="content-block">
+                            <h3>💼 Canales Principales</h3>
+                            <ul>
+                                <li>E-commerce avanzado</li>
+                                <li>Mobile marketing</li>
+                                <li>Social media marketing</li>
+                                <li>Marketing automation</li>
+                                <li>Tiendas físicas conectadas</li>
+                            </ul>
+                        </div>
+                        <div class="content-block">
+                            <h3>💰 Estrategias de Precio</h3>
+                            <ul>
+                                <li>Precios dinámicos</li>
+                                <li>Personalización de ofertas</li>
+                                <li>Promociones targeted</li>
+                                <li>Modelado predictivo</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Ejemplos Reales -->
+                    <div class="examples-section">
+                        <h3>🏆 Ejemplos Reales</h3>
+                        <div class="examples-grid">
+                            <div class="example-card">
+                                <div class="example-header">Nike</div>
+                                <div class="example-body">
+                                    <p><strong>Año Transformación:</strong> 2010+</p>
+                                    <p><strong>Producto Icónico:</strong> Nike Plus (app + sensores)</p>
+                                    <p><strong>Estrategia:</strong> Integración de apps, tiendas físicas, redes sociales</p>
+                                    <p><strong>Impacto:</strong> Líder en marketing omnicanal deportivo</p>
+                                    <p><strong>Lección:</strong> Tecnología wearable + datos = experiencias personalizadas</p>
+                                </div>
+                            </div>
+                            <div class="example-card">
+                                <div class="example-header">Starbucks</div>
+                                <div class="example-body">
+                                    <p><strong>Año Transformación:</strong> 2009+</p>
+                                    <p><strong>Producto Icónico:</strong> App + Tienda física + Pago móvil</p>
+                                    <p><strong>Estrategia:</strong> Experiencia unificada con datos de cliente</p>
+                                    <p><strong>Impacto:</strong> Revolución en experiencia de café retail</p>
+                                    <p><strong>Lección:</strong> Móvil conecta tienda física con datos del cliente</p>
+                                </div>
+                            </div>
+                            <div class="example-card">
+                                <div class="example-header">Sephora</div>
+                                <div class="example-body">
+                                    <p><strong>Año Transformación:</strong> 2012+</p>
+                                    <p><strong>Producto Icónico:</strong> App de belleza + realidad aumentada</p>
+                                    <p><strong>Estrategia:</strong> Integración de tienda online, app, y física</p>
+                                    <p><strong>Impacto:</strong> Líder en retail de belleza omnicanal</p>
+                                    <p><strong>Lección:</strong> Realidad aumentada mejora decisión de compra online</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </section>
+
+        <!-- Marketing 5.0 Section -->
+        <section id="version5" class="version-section ver5-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>🤖 Marketing 5.0: Era de IA y Automación</h2>
+                    <p class="section-period">2015-2020</p>
+                </div>
+
+                <div class="section-content">
+                    <!-- Concepto y Características -->
+                    <div class="content-row">
+                        <div class="content-block">
+                            <h3>📌 Concepto Principal</h3>
+                            <p>Uso masivo de Inteligencia Artificial, Machine Learning y automatización. Marketing impulsado por datos y algoritmos que personalizan a escala 1-a-1.</p>
+                        </div>
+                        <div class="content-block">
+                            <h3>🎯 Características Clave</h3>
+                            <ul>
+                                <li>IA y Machine Learning</li>
+                                <li>Automatización inteligente</li>
+                                <li>Personalización 1-to-1 a escala</li>
+                                <li>Predictibilidad algorítmica</li>
+                                <li>Marketing autónomo</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Canales y Precios -->
+                    <div class="content-row">
+                        <div class="content-block">
+                            <h3>💼 Canales Principales</h3>
+                            <ul>
+                                <li>Chatbots de IA</li>
+                                <li>Publicidad programática</li>
+                                <li>Marketing automation avanzado</li>
+                                <li>Recomendación inteligente</li>
+                                <li>Voice commerce (Alexa, Google)</li>
+                            </ul>
+                        </div>
+                        <div class="content-block">
+                            <h3>💰 Estrategias de Precio</h3>
+                            <ul>
+                                <li>Pricing dinámico con IA</li>
+                                <li>Predicción de demanda</li>
+                                <li>Optimización automática</li>
+                                <li>Personalización de costos</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Ejemplos Reales -->
+                    <div class="examples-section">
+                        <h3>🏆 Ejemplos Reales</h3>
+                        <div class="examples-grid">
+                            <div class="example-card">
+                                <div class="example-header">Netflix</div>
+                                <div class="example-body">
+                                    <p><strong>Año Transformación:</strong> 2015+</p>
+                                    <p><strong>Producto Icónico:</strong> Sistema de recomendación con IA</p>
+                                    <p><strong>Estrategia:</strong> Algoritmo que predice preferencias (80% visualización viene de recomendaciones)</p>
+                                    <p><strong>Impacto:</strong> Especialista en marketing predictivo</p>
+                                    <p><strong>Lección:</strong> Recomendaciones personalizadas conducen a la retención</p>
+                                </div>
+                            </div>
+                            <div class="example-card">
+                                <div class="example-header">Amazon (Alexa)</div>
+                                <div class="example-body">
+                                    <p><strong>Año Lanzamiento:</strong> 2014</p>
+                                    <p><strong>Producto Icónico:</strong> Asistentes inteligentes + compra por voz</p>
+                                    <p><strong>Estrategia:</strong> IA conversacional para compras automatizadas</p>
+                                    <p><strong>Impacto:</strong> Invención de nuevo canal: voice commerce</p>
+                                    <p><strong>Lección:</strong> Interfaz natural (voz) simplifica compra</p>
+                                </div>
+                            </div>
+                            <div class="example-card">
+                                <div class="example-header">Google (Ads)</div>
+                                <div class="example-body">
+                                    <p><strong>Año Evolución:</strong> 2016+</p>
+                                    <p><strong>Producto Icónico:</strong> Smart Bidding con machine learning</p>
+                                    <p><strong>Estrategia:</strong> Automatización de pujas y creatividades</p>
+                                    <p><strong>Impacto:</strong> Publicidad completamente automatizada y optimizada</p>
+                                    <p><strong>Lección:</strong> IA es más eficiente que humanos en optimización</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Marketing 6.0 Section -->
+        <section id="version6" class="version-section ver6-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>🌍 Marketing 6.0: Era de Sostenibilidad</h2>
+                    <p class="section-period">2020-2026</p>
+                </div>
+
+                <div class="section-content">
+                    <!-- Concepto y Características -->
+                    <div class="content-row">
+                        <div class="content-block">
+                            <h3>📌 Concepto Principal</h3>
+                            <p>Síntesis de tecnología (IA) con humanidad, sostenibilidad, y propósito. Marketing que equilibra automatización con conexión emocional genuina y responsabilidad ambiental.</p>
+                        </div>
+                        <div class="content-block">
+                            <h3>🎯 Características Clave</h3>
+                            <ul>
+                                <li>IA + Humanidad</li>
+                                <li>Sostenibilidad integral</li>
+                                <li>Transparencia de datos</li>
+                                <li>Marketing ético</li>
+                                <li>Economía circular</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Canales y Precios -->
+                    <div class="content-row">
+                        <div class="content-block">
+                            <h3>💼 Canales Principales</h3>
+                            <ul>
+                                <li>Comunidades digitales auténticas</li>
+                                <li>Live streaming y interacción real</li>
+                                <li>Marketing de contenido ético</li>
+                                <li>Metaverso y worlds 3D</li>
+                                <li>Blockchain y transparencia</li>
+                            </ul>
+                        </div>
+                        <div class="content-block">
+                            <h3>💰 Estrategias de Precio</h3>
+                            <ul>
+                                <li>Precios sostenibles</li>
+                                <li>Modelos de suscripción circular</li>
+                                <li>Transparencia de costos ambientales</li>
+                                <li>Precios basados en impacto</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Ejemplos Reales -->
+                    <div class="examples-section">
+                        <h3>🏆 Ejemplos Reales</h3>
+                        <div class="examples-grid">
+                            <div class="example-card">
+                                <div class="example-header">Unilever (Sustainable Living)</div>
+                                <div class="example-body">
+                                    <p><strong>Año Iniciativa:</strong> 2020+</p>
+                                    <p><strong>Producto Icónico:</strong> Línea de productos sostenibles</p>
+                                    <p><strong>Estrategia:</strong> Transparencia en cadena de suministro + IA para sostenibilidad</p>
+                                    <p><strong>Impacto:</strong> Integrar sostenibilidad en decisiones de marketing</p>
+                                    <p><strong>Lección:</strong> Los grandes brands pueden pivotear hacia sostenibilidad</p>
+                                </div>
+                            </div>
+                            <div class="example-card">
+                                <div class="example-header">Decathlon (Economía Circular)</div>
+                                <div class="example-body">
+                                    <p><strong>Año Transformación:</strong> 2020+</p>
+                                    <p><strong>Producto Icónico:</strong> Programa de reciclaje de ropa deportiva</p>
+                                    <p><strong>Estrategia:</strong> Circularidad + IA de inventario + comunidad</p>
+                                    <p><strong>Impacto:</strong> Modelo de negocio circular en retail deportivo</p>
+                                    <p><strong>Lección:</strong> Circularidad es más rentable que linealidad</p>
+                                </div>
+                            </div>
+                            <div class="example-card">
+                                <div class="example-header">Airbnb (Comunidad + Sostenibilidad)</div>
+                                <div class="example-body">
+                                    <p><strong>Año Evolución:</strong> 2020+</p>
+                                    <p><strong>Producto Icónico:</strong> Viajes sostenibles con comunidades locales</p>
+                                    <p><strong>Estrategia:</strong> IA recomienda, comunidad crea valores, sostenibilidad es core</p>
+                                    <p><strong>Impacto:</strong> Plataforma que bonifica comportamiento sostenible</p>
+                                    <p><strong>Lección:</strong> Tech + humanidad + sostenibilidad = modelo futuro</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+
+        <!-- Comparison Section -->
+        <section id="comparison" class="comparison-section">
+            <h2>📊 Comparación de Versiones</h2>
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Aspecto</th>
+                            <th>1.0</th>
+                            <th>2.0</th>
+                            <th>3.0</th>
+                            <th>4.0</th>
+                            <th>5.0</th>
+                            <th>6.0</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Enfoque</strong></td>
+                            <td>Producto</td>
+                            <td>Cliente</td>
+                            <td>Valores</td>
+                            <td>Experiencia</td>
+                            <td>Datos/IA</td>
+                            <td>Impacto</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Personalización</strong></td>
+                            <td>Ninguna</td>
+                            <td>Media</td>
+                            <td>Media</td>
+                            <td>Alta</td>
+                            <td>Muy Alta</td>
+                            <td>Extrema</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Canales</strong></td>
+                            <td>Radio, Press</td>
+                            <td>TV, Email</td>
+                            <td>Social, Blogs</td>
+                            <td>Omnicanal</td>
+                            <td>IA, Voz</td>
+                            <td>Comunidad, Meta</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Velocidad</strong></td>
+                            <td>Lenta</td>
+                            <td>Media</td>
+                            <td>Media</td>
+                            <td>Rápida</td>
+                            <td>Tiempo real</td>
+                            <td>Instantánea</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Dirección</strong></td>
+                            <td>1 vías</td>
+                            <td>2 vías</td>
+                            <td>Multidireccional</td>
+                            <td>360°</td>
+                            <td>Autónoma</td>
+                            <td>Bidireccional</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Key Insights -->
+        <section id="insights" class="insights-section">
+            <h2>💡 Conclusiones Clave para tu Clase</h2>
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <div class="insight-icon">📈</div>
+                    <h3>Evolución de Poder</h3>
+                    <p>El poder ha pasado del productor (1.0) al consumidor (2.0-3.0) y ahora a los datos y algoritmos (5.0-6.0).</p>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-icon">🔄</div>
+                    <h3>Cambio de Dirección</h3>
+                    <p>De comunicación unidireccional a conversación bidireccional y luego a comunidades autónomas.</p>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-icon">⚡</div>
+                    <h3>Aceleración Temporal</h3>
+                    <p>El ciclo de innovación se acelera: 50 años (1.0-2.0), 10 años (2.0-3.0), 5 años (3.0-4.0), menos de 2 años (5.0-6.0).</p>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-icon">🎯</div>
+                    <h3>Convergencia</h3>
+                    <p>El futuro no rechaza lo anterior, sino lo integra: 6.0 = IA (5.0) + Humanidad (3.0) + Experiencia (4.0).</p>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-icon">🌱</div>
+                    <h3>Sostenibilidad</h3>
+                    <p>La próxima generación de consumidores demanda que el marketing sea responsable ambientalmente.</p>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-icon">🚀</div>
+                    <h3>Llamado a la Acción</h3>
+                    <p>Hoy: Integra datos con humanidad, automatización con autenticidad, tecnología con propósito.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusiones -->
+        <section id="conclusiones" class="content-section conclusiones-section" style="display:none;">
+            <h2>🎯 Conclusiones Clave - Resumen Final</h2>
+            <div class="conclusiones-content">
+                <div class="conclusion-box">
+                    <h3>El Marketing Ha Evolucionado Constantemente</h3>
+                    <p>Desde enfocarse solamente en la producción masiva (1.0) hasta equilibrar tecnología con humanidad y sostenibilidad (6.0). Cada era amplificó el poder del consumidor y la complejidad de las estrategias.</p>
+                </div>
+                <div class="conclusion-box">
+                    <h3>La Tecnología es un Medio, No un Fin</h3>
+                    <p>IA, Big Data y automatización son poderosas, pero el futuro es para las empresas que combinan estos con autenticidad, propósito y responsabilidad social. Marketing 6.0 = Tecnología + Humanidad.</p>
+                </div>
+                <div class="conclusion-box">
+                    <h3>El Poder se Desplazó al Consumidor</h3>
+                    <p>En 1.0 las empresas decidían qué vender. En 6.0 los consumidores deciden con quién hacer negocio basado en valores compartidos, sostenibilidad e impacto social.</p>
+                </div>
+                <div class="conclusion-box">
+                    <h3>La Velocidad de Cambio se Aceleró</h3>
+                    <p>De 50 años por era a menos de 2 años. Las empresas deben ser ágiles, aprender constantemente e innovar para sobrevivir en un mundo en cambio permanente.</p>
+                </div>
+                <div class="conclusion-box">
+                    <h3>Datos + Ética = Futuro</h3>
+                    <p>La privacidad y responsabilidad en el uso de datos personales serán cada vez más importantes. Las empresas que ganen confianza serán las que prosperen.</p>
+                </div>
+                <div class="conclusion-box">
+                    <h3>Tu Rol Como Marketer del Futuro</h3>
+                    <p>Debes ser estratega, analista, creativo, ético y visionario. Entender historia te ayuda a anticipar el futuro. Marketing no es manipular, es crear valor genuino para la sociedad.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Referencias Bibliográficas -->
+        <section id="referencias" class="content-section referencias-section" style="display:none;">
+            <h2>📚 Referencias Bibliográficas</h2>
+            <div class="referencias-content">
+                <h3>Libros Fundamentales:</h3>
+                <ul class="referencias-list">
+                    <li><strong>"Marketing 3.0"</strong> - Philip Kotler (2010)<br/><em>El libro que define la era de valores y propósito en el marketing</em></li>
+                    <li><strong>"Marketing 4.0: Moving from Traditional to Digital"</strong> - Philip Kotler (2016)<br/><em>La transición hacia la experiencia omnicanal e integrada</em></li>
+                    <li><strong>"Marketing 5.0: Technology for Humanity"</strong> - Philip Kotler (2021)<br/><em>Cómo la IA y tecnología transforman el marketing moderno</em></li>
+                    <li><strong>"The Lean Startup"</strong> - Eric Ries (2011)<br/><em>Innovación rápida y basada en datos</em></li>
+                    <li><strong>"Delivering Happiness"</strong> - Tony Hsieh (2010)<br/><em>Cultura y propósito: Zappos como caso de estudio</em></li>
+                    <li><strong>"Contagious: Why Things Catch On"</strong> - Jonah Berger (2013)<br/><em>Por qué algunos productos se vuelven virales</em></li>
+                </ul>
+                
+                <h3>Artículos y Recursos Online:</h3>
+                <ul class="referencias-list">
+                    <li>McKinsey: "State of Social Selling" - Tendencias en redes sociales y marketing</li>
+                    <li>HubSpot Research: "The State of Digital Transformation" - Datos sobre cambios digitales</li>
+                    <li>Gartner: "Marketing Trends" - Predicciones anuales de marketing</li>
+                    <li>Think with Google: "Digital Insights" - Comportamiento del consumidor digital</li>
+                    <li>Harvard Business Review: "Marketing" - Artículos estratégicos sobre tendencias</li>
+                </ul>
+
+                <h3>Casos de Estudio Mencionados:</h3>
+                <ul class="referencias-list">
+                    <li><strong>Ford</strong> - Producción en cadena y marketing de masas (1908)</li>
+                    <li><strong>Coca-Cola</strong> - Consistencia de marca global (1886)</li>
+                    <li><strong>Amazon</strong> - E-commerce y personalización (1994)</li>
+                    <li><strong>Patagonia</strong> - Responsabilidad ambiental y autenticidad (1973)</li>
+                    <li><strong>TOMS Shoes</strong> - Modelo "One for One" de propósito social (2006)</li>
+                    <li><strong>Netflix</strong> - Recomendación inteligente con IA (2008)</li>
+                    <li><strong>Nike</strong> - Marketing omnicanal y wearables (2010+)</li>
+                </ul>
+
+                <h3>Documentales y Videos Recomendados:</h3>
+                <ul class="referencias-list">
+                    <li>"The Great Hack" - Netflix (Sobre privacidad de datos y Cambridge Analytica)</li>
+                    <li>"The Social Dilemma" - Netflix (Sobre redes sociales e IA)</li>
+                    <li>"AlphaGo" - Documentary (IA y machine learning)</li>
+                </ul>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2026 Marketing History. Todos los derechos reservados.</p>
+        <p>&copy; 2026 Marketing History - Presentación Interactiva. Todos los derechos reservados.</p>
+        <p>Diseñado para educación | <span id="footer-info">Haz clic en una versión para desplazarte</span></p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
